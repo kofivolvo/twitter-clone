@@ -127,11 +127,21 @@ body {
 		margin-bottom: 1em;
 		box-sizing: border-box;
 	}
+
+	.text-area-mod {
+		height: 11em;
+	}
+
 		#tweet-controls {
 			text-align: right;
+			visibility: hidden;
+
+
 		}
 			#tweet-controls div {
 				display: inline-block;
+
+
 			}
 			#char-count {
 				font-size: 14px;
@@ -258,5 +268,3 @@ body {
 				top: 0;
 				left: 0;
 			}
-
-
